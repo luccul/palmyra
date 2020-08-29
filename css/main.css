@@ -52,6 +52,9 @@ a:hover {
     margin-top:1.75rem;
     margin-bottom:1.75rem;
     text-align:center;
-
-
+}
+.menu-item {
+    margin-left:1rem;
+    margin-right:1rem;
+}
 
