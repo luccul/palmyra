@@ -45,10 +45,12 @@ a:hover {
       float:left;
       margin-left: 2rem;
       margin-bottom: 1rem;
+      text-align:left;
     }
     .menu {
       float:right;
       margin-right: 2rem;
+      text-align: right;
     }
 }
 
