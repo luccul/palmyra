@@ -38,7 +38,7 @@ a:hover {
     margin-bottom:2rem;
     text-align:center;
 
-@media (min-width: 36em) {
+@media (min-width: 768px) {
     .row { width: 100%; display: table; table-layout: fixed; }
     .col { display: table-cell; }
     .logo {
