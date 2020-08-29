@@ -5,7 +5,7 @@
 
 body {
   min-height: 100%;
-	text-align: left;
+  text-align: left;
   color: #111111;
   background: #FFFFFF;
   line-height: 1.5;
@@ -14,11 +14,6 @@ body {
   font-style:normal;
 }
 
-nav {
-  float:right;
-  margin-right: 1em;
-  margin-bottom: 2em;
-}
 
 a {
   text-decoration: none;
@@ -30,5 +25,17 @@ a:hover {
   text-decoration: none;
   color: #B0B0B0;
 }	
+
+.logo {
+  float:right;
+  margin-left:1em;
+  margin-bottom:2em;
+}
+
+.menu {
+  float:right;
+  margin-right: 1em;
+  margin-bottom: 2em;
+}
 
 
