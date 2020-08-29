@@ -3,24 +3,6 @@
   src: url('/palmyra/fonts/apercu_light.ttf');
 }
 
-@media (min-width: 64em) {
-    .row { width: 100%; display: table; table-layout: fixed; }
-    .col { display: table-cell; }
-    .logo {
-      float:left;
-      margin-left: 2rem;
-      margin-top: 1rem;
-      margin-bottom: 1rem;
-      font-size:3rem;
-    }
-    .menu {
-      float:right;
-      margin-top: 2rem;
-      margin-right: 2rem;
-      margin-bottom: 2rem;
-      font-size: 1rem; 
-    }
-}
 
 body {
   min-height: 100%;
@@ -44,5 +26,29 @@ a:hover {
   color: #B0B0B0;
 }	
 
+.logo {
+    font-size:3rem;
+    margin-top: 1rem;
+    text-align: center;
+}
 
+.menu {
+    font-size:1rem;
+    margin-top:2rem;
+    margin-bottom:2rem;
+    text-align:center;
+
+@media (min-width: 48em) {
+    .row { width: 100%; display: table; table-layout: fixed; }
+    .col { display: table-cell; }
+    .logo {
+      float:left;
+      margin-left: 2rem;
+      margin-bottom: 1rem;
+    }
+    .menu {
+      float:right;
+      margin-right: 2rem;
+    }
+}
 
