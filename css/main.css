@@ -14,8 +14,14 @@ body {
   font-style:normal;
 }
 a {
-  text-decoration: none;	
+  text-decoration: none;
+  color: #333333;
 }
+
+a:hover {
+  text-decoration: none;
+  color: #B0B0B0;
+}	
 
 nav {
   float:right;
