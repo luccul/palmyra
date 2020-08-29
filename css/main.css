@@ -54,6 +54,7 @@ a:hover {
     text-align:center;
 }
 .menu-item {
-    margin-left:1rem;
+    margin-left:0.5rem;
+    margin-right:0.5rem;
 }
 
