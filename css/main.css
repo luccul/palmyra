@@ -3,6 +3,11 @@
   src: url('/palmyra/fonts/apercu_light.ttf');
 }
 
+@media (min-width: 36em) {
+    .row { width: 100%; display: table; table-layout: fixed; }
+    .col { display: table-cell; }
+}
+
 body {
   min-height: 100%;
   text-align: left;
@@ -27,7 +32,7 @@ a:hover {
 }	
 
 .logo {
-  float:right;
+  float:left;
   margin-left:1em;
   margin-bottom:2em;
 }
