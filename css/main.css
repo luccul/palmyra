@@ -33,12 +33,12 @@ a:hover {
 
 .logo {
   float:left;
-  margin-left:1em;
-  margin-bottom:2em;
+  margin-left:2em;
 }
 
 .menu {
   float:right;
+  margin-top: 2em;
   margin-right: 2em;
   margin-bottom: 2em;
 }
