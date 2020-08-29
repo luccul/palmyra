@@ -6,19 +6,18 @@
 @media (min-width: 64em) {
     .row { width: 100%; display: table; table-layout: fixed; }
     .col { display: table-cell; }
-  
     .logo {
       float:left;
       margin-left: 2rem;
       margin-top: 1rem;
-      margin-bottom: 
+      margin-bottom: 1rem;
       font-size:3rem;
     }
-
     .menu {
       float:right;
       margin-top: 2rem;
       margin-right: 2rem;
+      margin-bottom: 2rem;
       font-size: 1rem; 
     }
 }
