@@ -9,11 +9,13 @@
     .logo {
       float:left;
       margin-left:2rem;
+      margin-right:2rem;
       margin-bottom:1rem;
       text-align:left;
     }
     .menu {
       float:right;
+      margin-left:2rem;
       margin-right:2rem;
       text-align:right;
     }
